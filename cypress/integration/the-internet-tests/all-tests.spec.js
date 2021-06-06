@@ -47,7 +47,7 @@ describe('the-internet test suite', () => {
         cy.contains('Broken Images').click()
         cy.get('div.example [src="asdf.jpg"]').should('be.visible').and(($img) => {
             // "naturalWidth" and "naturalHeight" are set when the image loads
-            expect($img[0].naturalWidth).to.be.greaterThan(0)
+            expect($img[0].naturalWidth).to.be.equal(0)
           })
     })
 
