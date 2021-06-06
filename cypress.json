@@ -1,0 +1,9 @@
+{
+  "watchForFileChanges": false,
+  "baseUrl": "http://jsonplaceholder.typicode.com",
+  "env": {
+    "TEST_ARTICLE": "https://origin-news-www.staging-thesun.co.uk/tech/7257000/animal-crossing-switch-release-date-revealed-after-epic-troll-from-nintendo/"
+  },
+  "projectId": "bk5jap"
+  
+}
